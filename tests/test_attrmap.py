@@ -8,7 +8,7 @@ def test_repr():
     """
     repr(AttrMap)
     """
-    from attrdict.mapping import AttrMap
+    from lsattrdict.mapping import AttrMap
 
     assert_equals(repr(AttrMap()), "AttrMap({})")
     assert_equals(repr(AttrMap({'foo': 'bar'})), "AttrMap({'foo': 'bar'})")

@@ -6,11 +6,6 @@ category = "dev"
 optional = false
 python-versions = "*"
 
-[package.source]
-type = "legacy"
-url = "http://esbuild1.e-s.intern:8001"
-reference = "lsoft"
-
 [[package]]
 name = "chardet"
 version = "4.0.0"
@@ -18,43 +13,6 @@ description = "Universal encoding detector for Python 2 and 3"
 category = "dev"
 optional = false
 python-versions = ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*, !=3.4.*"
-
-[package.source]
-type = "legacy"
-url = "http://esbuild1.e-s.intern:8001"
-reference = "lsoft"
-
-[[package]]
-name = "click"
-version = "7.1.2"
-description = "Composable command line interface toolkit"
-category = "dev"
-optional = false
-python-versions = ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*, !=3.4.*"
-
-[package.source]
-type = "legacy"
-url = "http://esbuild1.e-s.intern:8001"
-reference = "lsoft"
-
-[[package]]
-name = "click-plugins"
-version = "1.1.1"
-description = "An extension module for click to enable registering CLI commands via setuptools entry-points."
-category = "dev"
-optional = false
-python-versions = "*"
-
-[package.dependencies]
-click = ">=4.0"
-
-[package.extras]
-dev = ["pytest (>=3.6)", "pytest-cov", "wheel", "coveralls"]
-
-[package.source]
-type = "legacy"
-url = "http://esbuild1.e-s.intern:8001"
-reference = "lsoft"
 
 [[package]]
 name = "coverage"
@@ -66,11 +24,6 @@ python-versions = ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*, !=3.4.*, <4"
 
 [package.extras]
 toml = ["toml"]
-
-[package.source]
-type = "legacy"
-url = "http://esbuild1.e-s.intern:8001"
-reference = "lsoft"
 
 [[package]]
 name = "flake8"
@@ -85,11 +38,6 @@ mccabe = ">=0.6.0,<0.7.0"
 pycodestyle = ">=2.6.0a1,<2.7.0"
 pyflakes = ">=2.2.0,<2.3.0"
 
-[package.source]
-type = "legacy"
-url = "http://esbuild1.e-s.intern:8001"
-reference = "lsoft"
-
 [[package]]
 name = "idna"
 version = "2.10"
@@ -97,32 +45,6 @@ description = "Internationalized Domain Names in Applications (IDNA)"
 category = "dev"
 optional = false
 python-versions = ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*"
-
-[package.source]
-type = "legacy"
-url = "http://esbuild1.e-s.intern:8001"
-reference = "lsoft"
-
-[[package]]
-name = "lscli"
-version = "3.5.0"
-description = ""
-category = "dev"
-optional = false
-python-versions = ">=3.8.3,<4.0.0"
-
-[package.dependencies]
-click = ">=7.1.2,<8.0.0"
-click-plugins = ">=1.1.1,<2.0.0"
-pydash = ">=4.9.2,<5.0.0"
-pyyaml = ">=5.4.1,<6.0.0"
-semver = ">=2.13.0,<3.0.0"
-toml = ">=0.10.2,<0.11.0"
-
-[package.source]
-type = "legacy"
-url = "http://esbuild1.e-s.intern:8001"
-reference = "lsoft"
 
 [[package]]
 name = "mccabe"
@@ -132,11 +54,6 @@ category = "dev"
 optional = false
 python-versions = "*"
 
-[package.source]
-type = "legacy"
-url = "http://esbuild1.e-s.intern:8001"
-reference = "lsoft"
-
 [[package]]
 name = "nose"
 version = "1.3.7"
@@ -144,11 +61,6 @@ description = "nose extends unittest to make testing easier"
 category = "dev"
 optional = false
 python-versions = "*"
-
-[package.source]
-type = "legacy"
-url = "http://esbuild1.e-s.intern:8001"
-reference = "lsoft"
 
 [[package]]
 name = "pycodestyle"
@@ -158,27 +70,6 @@ category = "dev"
 optional = false
 python-versions = ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*"
 
-[package.source]
-type = "legacy"
-url = "http://esbuild1.e-s.intern:8001"
-reference = "lsoft"
-
-[[package]]
-name = "pydash"
-version = "4.9.2"
-description = "The kitchen sink of Python utility libraries for doing \"stuff\" in a functional way. Based on the Lo-Dash Javascript library."
-category = "dev"
-optional = false
-python-versions = "*"
-
-[package.extras]
-dev = ["coverage", "docformatter", "flake8", "invoke", "mock", "pylint", "pytest", "pytest-cov", "pytest-flake8", "pytest-pylint", "sphinx", "sphinx-rtd-theme", "tox", "twine", "wheel", "black", "flake8-black", "flake8-bugbear", "flake8-isort", "isort"]
-
-[package.source]
-type = "legacy"
-url = "http://esbuild1.e-s.intern:8001"
-reference = "lsoft"
-
 [[package]]
 name = "pyflakes"
 version = "2.2.0"
@@ -187,15 +78,10 @@ category = "dev"
 optional = false
 python-versions = ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*"
 
-[package.source]
-type = "legacy"
-url = "http://esbuild1.e-s.intern:8001"
-reference = "lsoft"
-
 [[package]]
 name = "python-coveralls"
 version = "2.9.3"
-description = "Python interface to coveralls.io API"
+description = "Python interface to coveralls.io API\n"
 category = "dev"
 optional = false
 python-versions = "*"
@@ -206,11 +92,6 @@ PyYAML = "*"
 requests = "*"
 six = "*"
 
-[package.source]
-type = "legacy"
-url = "http://esbuild1.e-s.intern:8001"
-reference = "lsoft"
-
 [[package]]
 name = "pyyaml"
 version = "5.4.1"
@@ -218,11 +99,6 @@ description = "YAML parser and emitter for Python"
 category = "dev"
 optional = false
 python-versions = ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*, !=3.4.*, !=3.5.*"
-
-[package.source]
-type = "legacy"
-url = "http://esbuild1.e-s.intern:8001"
-reference = "lsoft"
 
 [[package]]
 name = "requests"
@@ -242,24 +118,6 @@ urllib3 = ">=1.21.1,<1.27"
 security = ["pyOpenSSL (>=0.14)", "cryptography (>=1.3.4)"]
 socks = ["PySocks (>=1.5.6,!=1.5.7)", "win-inet-pton"]
 
-[package.source]
-type = "legacy"
-url = "http://esbuild1.e-s.intern:8001"
-reference = "lsoft"
-
-[[package]]
-name = "semver"
-version = "2.13.0"
-description = "Python helper for Semantic Versioning (http://semver.org/)"
-category = "dev"
-optional = false
-python-versions = ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*"
-
-[package.source]
-type = "legacy"
-url = "http://esbuild1.e-s.intern:8001"
-reference = "lsoft"
-
 [[package]]
 name = "six"
 version = "1.15.0"
@@ -267,24 +125,6 @@ description = "Python 2 and 3 compatibility utilities"
 category = "dev"
 optional = false
 python-versions = ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*"
-
-[package.source]
-type = "legacy"
-url = "http://esbuild1.e-s.intern:8001"
-reference = "lsoft"
-
-[[package]]
-name = "toml"
-version = "0.10.2"
-description = "Python Library for Tom's Obvious, Minimal Language"
-category = "dev"
-optional = false
-python-versions = ">=2.6, !=3.0.*, !=3.1.*, !=3.2.*"
-
-[package.source]
-type = "legacy"
-url = "http://esbuild1.e-s.intern:8001"
-reference = "lsoft"
 
 [[package]]
 name = "urllib3"
@@ -299,15 +139,10 @@ brotli = ["brotlipy (>=0.6.0)"]
 secure = ["pyOpenSSL (>=0.14)", "cryptography (>=1.3.4)", "idna (>=2.0.0)", "certifi", "ipaddress"]
 socks = ["PySocks (>=1.5.6,!=1.5.7,<2.0)"]
 
-[package.source]
-type = "legacy"
-url = "http://esbuild1.e-s.intern:8001"
-reference = "lsoft"
-
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.8.3"
-content-hash = "6cf9b8de8bb3a0c09f407a11225d8caa684b880648ca02da5d80fb8ca465da05"
+content-hash = "dab023a06f95b5b45e0d3762ae50a6bc7fb69e0d4adfc2056681bd902a9889c0"
 
 [metadata.files]
 certifi = [
@@ -317,14 +152,6 @@ certifi = [
 chardet = [
     {file = "chardet-4.0.0-py2.py3-none-any.whl", hash = "sha256:f864054d66fd9118f2e67044ac8981a54775ec5b67aed0441892edb553d21da5"},
     {file = "chardet-4.0.0.tar.gz", hash = "sha256:0d6f53a15db4120f2b08c94f11e7d93d2c911ee118b6b30a04ec3ee8310179fa"},
-]
-click = [
-    {file = "click-7.1.2-py2.py3-none-any.whl", hash = "sha256:dacca89f4bfadd5de3d7489b7c8a566eee0d3676333fbb50030263894c38c0dc"},
-    {file = "click-7.1.2.tar.gz", hash = "sha256:d2b5255c7c6349bc1bd1e59e08cd12acbbd63ce649f2588755783aa94dfb6b1a"},
-]
-click-plugins = [
-    {file = "click-plugins-1.1.1.tar.gz", hash = "sha256:46ab999744a9d831159c3411bb0c79346d94a444df9a3a3742e9ed63645f264b"},
-    {file = "click_plugins-1.1.1-py2.py3-none-any.whl", hash = "sha256:5d262006d3222f5057fd81e1623d4443e41dcda5dc815c06b442aa3c02889fc8"},
 ]
 coverage = [
     {file = "coverage-5.5-cp27-cp27m-macosx_10_9_x86_64.whl", hash = "sha256:b6d534e4b2ab35c9f93f46229363e17f63c53ad01330df9f2d6bd1187e5eaacf"},
@@ -388,10 +215,6 @@ idna = [
     {file = "idna-2.10-py2.py3-none-any.whl", hash = "sha256:b97d804b1e9b523befed77c48dacec60e6dcb0b5391d57af6a65a312a90648c0"},
     {file = "idna-2.10.tar.gz", hash = "sha256:b307872f855b18632ce0c21c5e45be78c0ea7ae4c15c828c20788b26921eb3f6"},
 ]
-lscli = [
-    {file = "lscli-3.5.0-py3-none-any.whl", hash = "md5:ded2ff2eaea1d3f2adb82901c3c2b216"},
-    {file = "lscli-3.5.0.tar.gz", hash = "md5:601b71a36aef50db11b0ef33f4575710"},
-]
 mccabe = [
     {file = "mccabe-0.6.1-py2.py3-none-any.whl", hash = "sha256:ab8a6258860da4b6677da4bd2fe5dc2c659cff31b3ee4f7f5d64e79735b80d42"},
     {file = "mccabe-0.6.1.tar.gz", hash = "sha256:dd8d182285a0fe56bace7f45b5e7d1a6ebcbf524e8f3bd87eb0f125271b8831f"},
@@ -404,10 +227,6 @@ nose = [
 pycodestyle = [
     {file = "pycodestyle-2.6.0-py2.py3-none-any.whl", hash = "sha256:2295e7b2f6b5bd100585ebcb1f616591b652db8a741695b3d8f5d28bdc934367"},
     {file = "pycodestyle-2.6.0.tar.gz", hash = "sha256:c58a7d2815e0e8d7972bf1803331fb0152f867bd89adf8a01dfd55085434192e"},
-]
-pydash = [
-    {file = "pydash-4.9.2-py2.py3-none-any.whl", hash = "sha256:dab98145502528369bd05034f6fb2b520297d49f942cfd51dc9cdc2cd47ec368"},
-    {file = "pydash-4.9.2.tar.gz", hash = "sha256:11d8f3c92d92a004e042fdb226b10dba28f4e311546b0de89d983e91539d5e55"},
 ]
 pyflakes = [
     {file = "pyflakes-2.2.0-py2.py3-none-any.whl", hash = "sha256:0d94e0e05a19e57a99444b6ddcf9a6eb2e5c68d3ca1e98e90707af8152c90a92"},
@@ -444,16 +263,9 @@ requests = [
     {file = "requests-2.25.1-py2.py3-none-any.whl", hash = "sha256:c210084e36a42ae6b9219e00e48287def368a26d03a048ddad7bfee44f75871e"},
     {file = "requests-2.25.1.tar.gz", hash = "sha256:27973dd4a904a4f13b263a19c866c13b92a39ed1c964655f025f3f8d3d75b804"},
 ]
-semver = [
-    {file = "semver-2.13.0-py2.py3-none-any.whl", hash = "sha256:ced8b23dceb22134307c1b8abfa523da14198793d9787ac838e70e29e77458d4"},
-    {file = "semver-2.13.0.tar.gz", hash = "sha256:fa0fe2722ee1c3f57eac478820c3a5ae2f624af8264cbdf9000c980ff7f75e3f"},
-]
 six = [
-    {file = "six-1.15.0-py2.py3-none-any.whl", hash = "md5:16dc2d0f87a1ed05579ad7c4965cf0ef"},
-]
-toml = [
-    {file = "toml-0.10.2-py2.py3-none-any.whl", hash = "sha256:806143ae5bfb6a3c6e736a764057db0e6a0e05e338b5630894a5f779cabb4f9b"},
-    {file = "toml-0.10.2.tar.gz", hash = "sha256:b3bda1d108d5dd99f4a20d24d9c348e91c4db7ab1b749200bded2f839ccbe68f"},
+    {file = "six-1.15.0-py2.py3-none-any.whl", hash = "sha256:8b74bedcbbbaca38ff6d7491d76f2b06b3592611af620f8426e82dddb04a5ced"},
+    {file = "six-1.15.0.tar.gz", hash = "sha256:30639c035cdb23534cd4aa2dd52c3bf48f06e5f4a941509c8bafd8ce11080259"},
 ]
 urllib3 = [
     {file = "urllib3-1.26.3-py2.py3-none-any.whl", hash = "sha256:1b465e494e3e0d8939b50680403e3aedaa2bc434b7d5af64dfd3c958d7f5ae80"},
